@@ -1,0 +1,8 @@
+POST http://localhost:8080/topicos
+header:content-type: application/json
+
+{
+    "titulo":"Duvida Postman",
+        "mensagem":"Texto da mensagem",
+        "nomeCurso":"Spring Boot"
+}
